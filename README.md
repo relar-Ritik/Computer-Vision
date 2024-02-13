@@ -11,6 +11,10 @@ This repository showcases the implementation of two computer vision techniques: 
 
 - **RPN_Implementation.ipynb**: Provides a step-by-step tutorial on building a Region Proposal Network from the ground up. This notebook covers everything from data preprocessing to model training on a sample dataset, elucidating the practical aspects of developing effective object detection systems.
 
+- **Gaussian-Bernouli_RBM.ipynb**: Provides a implemention of a Gaussian-Bernoulli Restricted Boltzmann Machine (RBM). Restricted Boltzmann Machines are a class of neural networks that serve as generative stochastic models, capable of learning complex distributions over binary data. The Gaussian-Bernoulli RBM variant is particularly suited for handling continuous data.
+
+- **CVAE.ipynb**: This ia an implementation of a Conditional Variational Autoencoder (CVAE). CVAE is an extension of the Variational Autoencoder (VAE), a popular generative model which can learn the underlying probability distribution of a dataset, allowing them to generate new data points that resemble the original data. CVAEs build upon this by incorporating conditional variables into the model, enabling the generation of data points based on specified conditions. This makes CVAEs particularly useful for tasks where control over certain aspects of the generated data is desired.
+
 ## Key Features
 
 - **In-depth Tutorials**: Each notebook serves as a detailed tutorial, walking through the theory and practice of constructing and training deep learning models in computer vision.
