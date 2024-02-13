@@ -1,0 +1,6 @@
+numpy
+matplotlib>=3.4
+opencv-python>=4.5
+jupyter
+torch>=1.8
+torchvision>=0.9
